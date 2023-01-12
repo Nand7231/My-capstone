@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+
+.navigation {
+  width: 100%;
+  background-color: black;
+}
+.logout {
+  font-size: .99em;
+  font-family: 'Oswald', sans-serif;
+	position: relative;
+  right: -18px;
+  bottom: -4px;
+  overflow: hidden;
+  letter-spacing: 3px;
+  opacity: 0;
+  transition: opacity .45s;
+  -webkit-transition: opacity .35s;
+
+}
+.logout-button {
+	text-decoration: none;
+	float: right;
+  padding: 12px;
+  margin: 15px;
+  color: white;
+  width: 25px;
+  background-color: darkseagreen;
+  transition: width .35s;
+  -webkit-transition: width .35s;
+  overflow: hidden
+}
+a:hover {
+  width: 110px;
+}
+a:hover .logout{
+  opacity: .9;
+}
+a {
+  text-decoration: none;
+}
+.home {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color:white
+
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+  background-image: url(https://static.onecms.io/wp-content/uploads/sites/35/2016/05/16190730/beef-rice-bowl.jpg);
+  padding: 1px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: darkseagreen;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+.recipe {
+	border: 2px solid #F2F2F2;
+	border-radius: 8px;
+	overflow: hidden;
+  background-color:#ecbd80
+}
+
+
+
+
+
+/* Body Layout */ */
+/* * {
+	box-sizing: border-box;
+}
+
+body {
+	--primary: #E05D26;
+	--grey: #454545;
+	--lightgrey: #666;
+
+	color: var(--grey);
+	line-height: 1.55;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+} */
+
+.small {
+	width: clamp(320px, 35%, 480px);
+	padding: 24px;
+}
+

@@ -111,4 +111,10 @@ body {
 	width: clamp(320px, 35%, 480px);
 	padding: 24px;
 }
-
+#recipeForm {
+    border: 1px solid;
+  	border-radius: 5px;
+	padding: 10px;
+	margin: 10px 0;
+	background-color: darkseagreen;
+}

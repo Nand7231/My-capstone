@@ -1,6 +1,6 @@
 const cookieArr = document.cookie.split("=")
 const userId = cookieArr[1];
-//let saveRecipeBtn = document.getElementById('recipe-save')
+
 let recipeContainer = document.getElementById('recipe-container')
 const headers = {
     'Content-Type': 'application/json'
@@ -74,4 +74,4 @@ function goToYourRecipes(){
 window.location.replace("http://localhost:8080/recipeList.html")
 }
 getAllRecipes();
-//saveRecipeBtn.addEventListener("click", saveRecipe)
+
